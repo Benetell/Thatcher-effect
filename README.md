@@ -29,7 +29,8 @@ scalefactor: ekkorára csökkenti lépésenként a képet, annál pontosabb (és
 
 minNeighbors: legalább ennyi szomszédos kernel találatnak kell lennie
 
-Ezután végigmegyek az arcokon, vagyis azok helyeineknek koordinátáin a képen. Elmenetem egy-egy változóba az arcok elhelyezkedését a képen szürkeárnyalatosban és színesben.
+Ezután végigmegyek az arcokon, vagyis azok helyeineknek koordinátáin a képen. Elmenetem egy-egy változóba az arcok elhelyezkedését a képen szürkeárnyalatosban és
+ színesben.
 ```
 if len(faces) == 0:
     print("No faces detected.")
