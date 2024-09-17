@@ -30,7 +30,7 @@ else:
                 mouth_roi = roi_color[my:my+mh, mx:mx+mw]
                 mouth_flipped = cv2.flip(mouth_roi, 0)
                 roi_color[my:my+mh, mx:mx+mw] = mouth_flipped
-
-cv2.imwrite('elon-after.jpg', image)
+image = cv2.flip(image, 0)
+cv2.imshow('elon-after.jpg', image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
